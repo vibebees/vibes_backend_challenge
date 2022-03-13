@@ -8,7 +8,7 @@ See data.json where you will find
 
 
  and see collection stored in mongodb atlas in the following uri address you will find three attribute i
- uri = `mongodb+srv://test:test@cluster0.b6utj.mongodb.net/vibesBackendChallenge?retryWrites=true&w=majority`
+ uri = `mongodb+srv://<username>:<password>@cluster0.b6utj.mongodb.net/vibesBackendChallenge?retryWrites=true&w=majority`
 
 `
 new Schema({
