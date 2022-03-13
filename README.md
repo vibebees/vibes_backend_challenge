@@ -34,7 +34,8 @@ object keys such as `Full-time,_First-time,_Degree/certificate-seeking_Undergrad
 Final data structure in univerity collection document should look like:
 
 Number values should be cleaned and converted to int or float!
-
+`$5,603` => 5603
+`90%` => 90.00
 ```javascript
 { 
         "financialAid": {
