@@ -28,10 +28,12 @@ new Schema({
 
 ## Data types:
 #### number should be converted to number
-#### null or NaN should be converted to placed if no number is present
+#### null or NaN should be placed if no number is present
 object keys such as `Full-time,_First-time,_Degree/certificate-seeking_Undergraduate_Students` can be written in more better way `firstTimeFullTimeUndergrad`
         
-Final data structure in univerity collection document should look like
+Final data structure in univerity collection document should look like:
+
+Number values should be cleaned and converted to int or float!
 
 ```javascript
 { 
