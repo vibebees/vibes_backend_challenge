@@ -20,7 +20,7 @@ new Schema({
  
   Merged those two datas (data.json and document stored in mongodb) with key of unitId present in both, and name that new collection 'university'. 
 
-  Data.json has 9 doc and model in mongodb `aidretentionandgraduations` also has 9 doc, merge it and form a new model called `university`
+  Data.json has 9 doc and model in mongodb `aidretentionandgraduations` also has 9 doc, merge it and form a new model called `university` + yourname
 
 
 # Final Merged File Should look like:
